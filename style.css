@@ -3,10 +3,10 @@
 
 :root {
     --bg-primary: #fffcf9;
-    --bg-secondary: #fdf1f2;
+    --bg-secondary: #f0f4f8;
     --accent-gold: #c5a059;
     --accent-gold-light: #e0c08d;
-    --accent-pink: #f8d7da;
+    --accent-blue: #dbe4ef;
     --text-primary: #3d3d3d;
     --text-secondary: #7a7a7a;
     --glass-bg: rgba(255, 255, 255, 0.8);
@@ -571,7 +571,7 @@ nav {
 }
 
 .ad-slot:hover {
-    background: var(--accent-pink);
+    background: var(--accent-blue);
     border-style: solid;
 }
 
