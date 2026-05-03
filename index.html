@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Little Nolan - Premium baby boutique offering exquisite organic cotton clothes and handcrafted accessories.">
+    <title>Little Nolan | Premium Baby Boutique</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="glass" id="main-nav">
+        <div class="container nav-content">
+            <div class="logo">
+                <a href="#">LITTLE NOLAN</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#collections">Collections</a></li>
+                <li><a href="#about">Our Story</a></li>
+                <li><a href="#contact">Visit Us</a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="#" class="search-icon">Search</a>
+                <a href="#" class="cart-icon">Cart (0)</a>
+                <button class="mobile-toggle" id="mobile-toggle">
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-bg" id="hero-image"></div>
+        <div class="container hero-content">
+            <h1 class="reveal">Gentle on <br><span>Little Skin</span></h1>
+            <p class="reveal" style="animation-delay: 0.2s;">Discover our handcrafted collection of organic cotton baby essentials, designed for comfort and timeless charm.</p>
+            <div class="hero-btns reveal" style="animation-delay: 0.4s;">
+                <a href="#collections" class="btn-primary">Shop the Nursery</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Featured Collections -->
+    <section id="collections" class="collections">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>Featured Collections</h2>
+                <p>Meticulously crafted pieces that blend contemporary design with traditional craftsmanship.</p>
+            </div>
+            <div class="collection-grid">
+                <div class="collection-item reveal">
+                    <div class="item-img" id="item-1"></div>
+                    <div class="item-info">
+                        <h3>Organic Cotton Onesie</h3>
+                        <p>$45</p>
+                    </div>
+                </div>
+                <div class="collection-item reveal" style="animation-delay: 0.1s;">
+                    <div class="item-img" id="item-2"></div>
+                    <div class="item-info">
+                        <h3>Hand-Knit Baby Bonnet</h3>
+                        <p>$35</p>
+                    </div>
+                </div>
+                <div class="collection-item reveal" style="animation-delay: 0.2s;">
+                    <div class="item-img" id="item-3"></div>
+                    <div class="item-info">
+                        <h3>Soft Muslin Swaddle Set</h3>
+                        <p>$55</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container about-grid">
+            <div class="about-img reveal" id="about-image"></div>
+            <div class="about-text reveal">
+                <span class="subtitle">Our Gentle Promise</span>
+                <h2>For the Moments that Matter</h2>
+                <p>Founded in 2025, Little Nolan was born from a mother's search for truly soft, sustainable baby clothes. We believe that your baby deserves the purest materials and the most thoughtful designs.</p>
+                <p>Every piece in our collection is crafted from GOTS-certified organic cotton and sustainable fibers, ensuring a gentle touch for your little one and a better future for the world they'll grow up in.</p>
+                <a href="#about" class="btn-outline">Our Sustainability Story</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact/Footer -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-info">
+                    <h2 class="logo">LITTLE NOLAN</h2>
+                    <p>Thoughtfully designed essentials for the modern baby.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Shop</h4>
+                    <ul>
+                        <li><a href="#">New Arrivals</a></li>
+                        <li><a href="#">Menswear</a></li>
+                        <li><a href="#">Womenswear</a></li>
+                        <li><a href="#">Accessories</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="tel:0119766506">0119766506</a></li>
+                        <li><a href="#">Lavington, Nairobi</a></li>
+                        <li><strong>Till: 5538830</strong></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Stay Updated</h4>
+                    <p>Scan to get notifications on new arrivals.</p>
+                    <div class="qr-container">
+                        <img id="notification-qr" src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://wa.me/254119766506?text=Hello%20Little%20Nolan,%20I%20would%20like%20to%20get%20updates%20on%20new%20products!&bgcolor=fffcf9&color=c5a059" alt="Scan for updates" style="width: 120px; height: 120px; border: 1px solid var(--accent-gold); padding: 5px; border-radius: 10px;">
+                    </div>
+                    <div class="share-container" style="margin-top: 1rem;">
+                        <button id="share-link-btn" class="btn-outline" style="padding: 0.5rem 1rem; font-size: 0.7rem;">Share Boutique Link</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Nolan Boutique. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#">Instagram</a>
+                    <a href="#">Pinterest</a>
+                    <a href="#">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
